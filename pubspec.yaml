@@ -1,0 +1,24 @@
+name: scalextric_timer
+description: CronÃ³metro para circuitos Scalextric con detecciÃ³n por cÃ¡mara
+
+publish_to: 'none'
+
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+5
+  image: ^4.1.3
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
